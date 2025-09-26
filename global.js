@@ -453,7 +453,7 @@ function generateBaseProxyGroups(countryData) {
         "🕊️ 落地节点",
         "🔗 全局直连",
         //...countryManualOptions,
-        ...otherManualOptions
+        //...otherManualOptions
       ]
     },
     {
