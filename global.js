@@ -470,6 +470,7 @@ function generateBaseProxyGroups(countryData) {
       "type": "select",
       "proxies": [...landingNodeNames], 
       "include-all": true,
+      "exclude-filter":[...landingNodeNames],
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/openwrt.svg"
     },
     {
