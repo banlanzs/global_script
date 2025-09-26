@@ -460,7 +460,7 @@ function generateBaseProxyGroups(countryData) {
       ...groupBaseOption,
       "name": "⚙️ 节点选择",
       "type": "select",
-      "proxies": ["♻️ 延迟选优", "🚑 故障转移", "⚖️ 负载均衡(散列)", "☁️ 负载均衡(轮询)", ...countryAutoOptions, ...otherAutoOptions],
+      "proxies": ["♻️ 延迟选优", "🚑 故障转移", "⚖️ 负载均衡(散列)", "☁️ 负载均衡(轮询)", ...countryManualOptions,...countryAutoOptions, ...otherAutoOptions],
       "include-all": false,
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/adjust.svg"
     },
@@ -469,6 +469,7 @@ function generateBaseProxyGroups(countryData) {
       "name": "🕊️ 落地节点", 
       "type": "select",
       "proxies": [...landingNodeNames], 
+      "include-all": true,
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/openwrt.svg"
     },
     {
