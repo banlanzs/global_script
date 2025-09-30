@@ -197,6 +197,10 @@ const rules = [
   "DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 模式选择",
   "DOMAIN-SUFFIX,github.io,🔰 模式选择",
   "DOMAIN,v2rayse.com,🔰 模式选择",
+  "DOMAIN,tc.mofashi.ltd,🔗 全局直连",
+  "DOMAIN,api.888188.me,🔗 全局直连",
+  "DOMAIN,vodcnd10.rsfcxq.com,🔗 全局直连",
+  "DOMAIN,msftconnecttest.com,🔗 全局直连",
   // MetaCubeX 规则集
   "RULE-SET,openai,💸 ChatGPT-Gemini-XAI-Perplexity",
   "RULE-SET,pikpak,🅿️ PikPak",
