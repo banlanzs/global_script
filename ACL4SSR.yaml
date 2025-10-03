@@ -256,7 +256,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
-    type: url-test
+    type: select
     interval: 300
     tolerance: 50
   - name: 日本节点
