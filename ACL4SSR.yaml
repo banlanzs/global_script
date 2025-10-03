@@ -64,6 +64,20 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: LINUXDO
+    icon: https://linux.do/uploads/default/optimized/4X/0/7/5/075f92ecdc0a553e05e73c0ef97e5b48e99d57bd_2_750x750.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
+      - DIRECT
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
@@ -297,6 +311,7 @@ proxy-groups:
       - OpenAi
       - 油管视频
       - 奈飞视频
+      - LINUXDO
       - 巴哈姆特
       - 哔哩哔哩
       - 国外媒体
@@ -628,6 +643,8 @@ rules:
   - "RULE-SET,Steam,游戏平台"
   - "RULE-SET,Nintendo,游戏平台"
   - "RULE-SET,YouTube,油管视频"
+  - "DOMAIN-SUFFIX,linux.do,LINUXDO"
+  - "DOMAIN-SUFFIX,idcflare.com,LINUXDO"
   - "RULE-SET,Netflix,奈飞视频"
   - "RULE-SET,Bahamut,巴哈姆特"
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
