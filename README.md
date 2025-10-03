@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/banlanzs/global_script/refs/heads/main/global.
 https://raw.githubusercontent.com/banlanzs/global_script/refs/heads/main/global.js
 ```
 ```
-https://raw.githubusercontent.com/banlanzs/global_script/refs/heads/main/acl4ssr.yaml
+https://raw.githubusercontent.com/banlanzs/global_script/refs/heads/main/ACL4SSR.yaml
 ```
 
 based on [Clash Party 覆写仓库](https://github.com/mihomo-party-org/override-hub)
