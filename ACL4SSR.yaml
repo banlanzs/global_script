@@ -554,7 +554,7 @@ rule-providers:
     format: text
     type: http
   DouYin:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DouYin/DouYin.list
+    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/DouYin/DouYin.list
     path: ./ruleset/DouYin.list
     behavior: classical
     interval: 86400
