@@ -10,6 +10,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 其他节点
       - 手动切换
       - DIRECT
   - name: 手动切换
@@ -306,6 +307,14 @@ proxy-groups:
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
     type: select
+    - name: 其他节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    # 排除所有已匹配过的主流国家关键词
+    filter: (?i)^(?!(.*((?<!A)US(?!A)|United States|美国|港|HK|Hong Kong|日本|东京|大阪|JP|Japan|台湾|台|TW|Taiwan|新加坡|狮城|SG|Singapore|韩国|韩|Korea|KOR|奈飞|Netflix|NF|Media))).*$
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
@@ -341,6 +350,7 @@ proxy-groups:
       - 狮城节点
       - 韩国节点
       - 奈飞节点
+      - 其他节点
 
 rule-providers:
   LocalAreaNetwork:
