@@ -294,6 +294,13 @@ proxy-groups:
     type: select
     interval: 300
     tolerance: 50
+  - name: 澳洲节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Australia.png
+    include-all: true
+    filter: (?i)AU|Australia|AUS|悉尼|澳
+    type: select
+    interval: 300
+    tolerance: 50
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
