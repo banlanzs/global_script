@@ -310,9 +310,8 @@ proxy-groups:
   - name: 其他节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
-    # 排除所有已匹配过的主流国家关键词
     filter: (?i)^(?!(.*((?<!A)US(?!A)|United States|美国|港|HK|Hong Kong|日本|东京|大阪|JP|Japan|台湾|台|TW|Taiwan|新加坡|狮城|SG|Singapore|韩国|韩|Korea|KOR|奈飞|Netflix|NF|Media))).*$
-    type: url-test
+    type: select
     interval: 300
     tolerance: 50
   - name: GLOBAL
