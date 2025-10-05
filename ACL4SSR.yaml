@@ -269,7 +269,7 @@ proxy-groups:
   - name: 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
-    filter: /^(?!.*(Plus|plus|custom|Australia|AU|🇦🇺)).*(美国|洛杉矶|US|USA|United States|America|🇺🇸|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|圣何塞|圣克拉拉|西雅图|芝加哥|纽约|NYC|New York|旧金山|San Francisco|三藩市|休斯顿|Houston|波士顿|Boston|华盛顿|Washington DC|亚特兰大|Atlanta|迈阿密|Miami|费城|Philadelphia|底特律|Detroit|西雅图|Seattle|丹佛|Denver|纳什维尔|Nashville|奥斯汀|Austin|圣地亚哥|San Diego|奥克兰|Oakland|明尼阿波利斯|Minneapolis|檀香山|Honolulu|安克雷奇|Anchorage)/i
+    filter: /^(?!.*(Plus|plus|custom|Australia|AU|🇦🇺)).*(美国|US|USA|United States|America|🇺🇸|洛杉矶|纽约|芝加哥|旧金山|西雅图|华盛顿|波士顿|拉斯维加斯|硅谷|圣何塞)/i
     type: select
     interval: 300
     tolerance: 50
