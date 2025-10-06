@@ -598,6 +598,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  XiaoHongShu:
+    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/XiaoHongShu/XiaoHongShu.list
+    path: ./ruleset/XiaoHongShu.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 
 dns:
@@ -668,6 +675,7 @@ rules:
   - "RULE-SET,Download,全球直连"
   - "RULE-SET,Direct,全球直连"
   - "RULE-SET,DouYin,全球直连"
+  - "RULE-SET,XiaoHongShu,全球直连"
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
   - "RULE-SET,ChinaMedia,国内媒体"
