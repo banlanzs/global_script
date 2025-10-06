@@ -416,6 +416,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Copilot:
+    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
+    path: ./ruleset/Copilot.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   Bing:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
     path: ./ruleset/Bing.list
@@ -587,13 +594,6 @@ rule-providers:
   DouYin:
     url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/DouYin/DouYin.list
     path: ./ruleset/DouYin.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Copilot:
-    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
-    path: ./ruleset/Copilot.list
     behavior: classical
     interval: 86400
     format: text
