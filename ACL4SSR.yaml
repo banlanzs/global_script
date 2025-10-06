@@ -51,6 +51,20 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: Copilot
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Copilot.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
+      - DIRECT
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
@@ -324,6 +338,7 @@ proxy-groups:
       - 自动选择
       - 电报消息
       - OpenAi
+      - Copilot
       - 油管视频
       - 奈飞视频
       - LINUXDO
@@ -576,6 +591,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Copilot:
+    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
+    path: ./ruleset/Copilot.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 
 dns:
@@ -652,6 +674,7 @@ rules:
   - "RULE-SET,Apple,苹果服务"
   - "RULE-SET,Telegram,电报消息"
   - "RULE-SET,OpenAi,OpenAi"
+  - "RULE-SET,Copilot,Copilot"
   - "RULE-SET,NetEaseMusic,网易音乐"
   - "RULE-SET,Epic,游戏平台"
   - "RULE-SET,Origin,游戏平台"
