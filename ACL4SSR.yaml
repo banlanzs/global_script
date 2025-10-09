@@ -605,6 +605,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  JingDong:
+    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/JingDong/JingDong.list
+    path: ./ruleset/JingDong.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 
 dns:
@@ -676,6 +683,7 @@ rules:
   - "RULE-SET,Direct,全球直连"
   - "RULE-SET,DouYin,全球直连"
   - "RULE-SET,XiaoHongShu,全球直连"
+  - "RULE-SET,JingDong,全球直连"
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
   - "RULE-SET,ChinaMedia,国内媒体"
