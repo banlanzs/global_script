@@ -17,13 +17,13 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
     #filter: '^(?!.*(?:10x|8x|倍率|\d+x|×|官网|剩余)).*$'
-    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点)).*$'
+    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期)).*$'
     type: select
   - name: 自动选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
     include-all: true
-    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点)).*$'
+    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期)).*$'
     interval: 300
     tolerance: 50
   - name: 电报消息
@@ -341,7 +341,7 @@ proxy-groups:
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
-    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点)).*$'
+    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期)).*$'
     type: select
     proxies:
       - 节点选择
