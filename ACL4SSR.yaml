@@ -653,7 +653,8 @@ dns:
   # 用来解析 nameserver 和 fallback 里面的域名的，必须为 IP, 可为加密 DNS
   default-nameserver:
     - 8.8.8.8           # Google DNS
-    - 1.1.1.1           # Cloudflare DNS
+    - 8.8.4.4
+    # - 1.1.1.1           # Cloudflare DNS
     - 119.29.29.29      # 腾讯DNSPod
     - 223.5.5.5         # 阿里DNS
     - 223.6.6.6         # 阿里DNS
@@ -678,8 +679,9 @@ dns:
   # 解析代理服务器域名的DNS服务器,就是节点本身中包含的域名
   # 代理节点域名解析服务器，仅用于解析代理节点的域名，如果不填则遵循nameserver-policy、nameserver和fallback的配置
   proxy-server-nameserver:
-    - https://1.1.1.1/dns-query          # Cloudflare DNS
+   #  - https://1.1.1.1/dns-query          # Cloudflare DNS
     - https://8.8.8.8/dns-query          # Google DNS
+    - https://dns.google/dns-query
     - https://doh.pub/dns-query          #腾讯
     - https://dns.alidns.com/dns-query   #阿里
     - https://9.9.9.9/dns-query          #Quad9
