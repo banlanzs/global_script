@@ -21,13 +21,13 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
     #filter: '^(?!.*(?:10x|8x|倍率|\d+x|×|官网|剩余)).*$'
-    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒)).*$'
+    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒|推广|风控)).*$'
     type: select
   - name: 自动选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
     include-all: true
-    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒)).*$'
+    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒|推广|风控)).*$'
     interval: 300
     tolerance: 50
   - name: 电报消息
@@ -330,7 +330,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     #filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
-    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒)).*(港|HK|hk|Hong Kong|HongKong|hongkong).*$'
+    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒|推广|风控)).*(港|HK|hk|Hong Kong|HongKong|hongkong).*$'
     type: select
     interval: 300
     tolerance: 50
@@ -338,7 +338,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
     #filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
-    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒)).*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan).*$'
+    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒|推广|风控)).*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan).*$'
     type: select
     interval: 300
     tolerance: 50
@@ -346,7 +346,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     #filter: (?i)^(?:(?!澳).)*(美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<!A)US(?!A)|United States)
-    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒)).*(?i)(?:(?!澳).)*(美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<!A)US(?!A)|United States).*$'
+    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒|推广|风控)).*(?i)(?:(?!澳).)*(美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<!A)US(?!A)|United States).*$'
     type: select
     interval: 300
     tolerance: 50
@@ -354,7 +354,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
     #filter: (?i)台|新北|彰化|TW|Taiwan
-    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒)).*(台|新北|彰化|TW|Taiwan).*$'
+    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒|推广|风控)).*(台|新北|彰化|TW|Taiwan).*$'
     type: select
     interval: 300
     tolerance: 50
@@ -362,7 +362,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
     #filter: (?i)新加坡|坡|狮城|SG|Singapore
-    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒)).*(新加坡|坡|狮城|SG|Singapore).*$'
+    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒|推广|风控)).*(新加坡|坡|狮城|SG|Singapore).*$'
     type: select
     interval: 300
     tolerance: 50
@@ -370,7 +370,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
     include-all: true
     #filter: (?i)KR|Korea|KOR|首尔|韩|韓
-    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒)).*(KR|Korea|KOR|首尔|韩|韓).*$'
+    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒|推广|风控)).*(KR|Korea|KOR|首尔|韩|韓).*$'
     type: select
     interval: 300
     tolerance: 50
@@ -378,34 +378,34 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Australia.png
     include-all: true
     #filter: (?i)AU|Australia|AUS|悉尼|澳
-    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒)).*(AU|Australia|AUS|悉尼|澳).*$'
+    filter: '^(?!.*(倍率|10x|8x|ipv6|IPV6|🔒|推广|风控)).*(AU|Australia|AUS|悉尼|澳).*$'
     type: select
     interval: 300
     tolerance: 50
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     include-all: true
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒|推广|风控
     filter: (?i)香港|Hong Kong|HK|🇭🇰
     name: HK AUTO
     type: url-test
     interval: 300
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     include-all: true
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒|推广|风控
     filter: (?i)新加坡|Singapore|🇸🇬
     name: SG AUTO
     type: url-test
     interval: 300
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     include-all: true
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒|推广|风控
     filter: (?i)日本|Japan|🇯🇵
     name: JP AUTO
     type: url-test
     interval: 300
   - icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     include-all: true
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|ipv6|IPV6|🔒|推广|风控
     filter: (?i)美国|USA|🇺🇸
     name: US AUTO
     type: url-test
@@ -418,14 +418,14 @@ proxy-groups:
   - name: 其他节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
-    filter: (?i)^(?!(.*(港|HK|Hong Kong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<!A)US(?!A)|United States|台湾|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|韩国|韩|韓|Korea|KOR|首尔|澳|悉尼|AU|AUS|Australia|奈飞|NF|Netflix|NETFLIX|Media|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒))).*$
+    filter: (?i)^(?!(.*(港|HK|Hong Kong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<!A)US(?!A)|United States|台湾|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|韩国|韩|韓|Korea|KOR|首尔|澳|悉尼|AU|AUS|Australia|奈飞|NF|Netflix|NETFLIX|Media|10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒|推广|风控))).*$
     type: select
     interval: 300
     tolerance: 50
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
-    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒)).*$'
+    filter: '^(?!.*(?:10x|8x|倍率|官网|剩余|建议|切换|连不上|不支持|没节点|套餐到期|到期|ipv6|IPV6|🔒|推广|风控)).*$'
     type: select
     proxies:
       - 节点选择
