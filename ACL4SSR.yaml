@@ -711,7 +711,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
+  Custom-direct:
+    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/Custom-direct/Custom-direct.list
+    path: ./ruleset/Custom-direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 dns:
   enable: true            # 启用 Clash 的 DNS功能1
@@ -785,6 +791,7 @@ rules:
   - "RULE-SET,DouYin,全球直连"
   - "RULE-SET,XiaoHongShu,全球直连"
   - "RULE-SET,JingDong,全球直连"
+  - "RULE-SET,Custom-direct,全球直连"
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
   - "RULE-SET,ChinaMedia,国内媒体"
@@ -816,5 +823,4 @@ rules:
   - "RULE-SET,Netflix,奈飞视频"
   - "RULE-SET,Bahamut,巴哈姆特"
   - "RULE-SET,ProxyGFWlist,节点选择"
-  - "DOMAIN,tc.mofashi.ltd,全球直连"
   - "MATCH,漏网之鱼"
