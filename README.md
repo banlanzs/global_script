@@ -14,3 +14,5 @@ based on [Clash Party 覆写仓库](https://github.com/mihomo-party-org/override
 ruleset:
 [MetaCubeX](https://github.com/MetaCubeX/meta-rules-dat)
 [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+
+icon: [Qure](https://github.com/Koolson/Qure)
