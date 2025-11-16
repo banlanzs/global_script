@@ -516,7 +516,7 @@ rule-providers:
     format: text
     type: http
   Copilot:
-    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
     path: ./ruleset/Copilot.list
     behavior: classical
     interval: 86400
@@ -684,36 +684,29 @@ rule-providers:
     format: text
     type: http
   Direct:
-    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
     path: ./ruleset/Direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   DouYin:
-    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/DouYin/DouYin.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DouYin/DouYin.list
     path: ./ruleset/DouYin.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   XiaoHongShu:
-    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/XiaoHongShu/XiaoHongShu.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/XiaoHongShu/XiaoHongShu.list
     path: ./ruleset/XiaoHongShu.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   JingDong:
-    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/JingDong/JingDong.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/JingDong/JingDong.list
     path: ./ruleset/JingDong.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Custom-direct:
-    url: https://raw.githubusercontent.com/banlanzs/rule_script/refs/heads/master/rule/Clash/Custom-direct/Custom-direct.list
-    path: ./ruleset/Custom-direct.list
     behavior: classical
     interval: 86400
     format: text
@@ -782,6 +775,7 @@ dns:
     - https://208.67.222.222/dns-query   #OpenDNS
 
 rules:
+- "DOMAIN,tc.mofashi.ltd,全球直连"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,ChinaDomain,全球直连"
