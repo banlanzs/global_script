@@ -775,7 +775,7 @@ dns:
     - https://208.67.222.222/dns-query   #OpenDNS
 
 rules:
-- "DOMAIN,tc.mofashi.ltd,全球直连"
+  - "DOMAIN,tc.mofashi.ltd,全球直连"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,ChinaDomain,全球直连"
@@ -785,7 +785,6 @@ rules:
   - "RULE-SET,DouYin,全球直连"
   - "RULE-SET,XiaoHongShu,全球直连"
   - "RULE-SET,JingDong,全球直连"
-  - "RULE-SET,Custom-direct,全球直连"
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
   - "RULE-SET,ChinaMedia,国内媒体"
